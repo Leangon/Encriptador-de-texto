@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../imagenes/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    
+    <header class="header">
+        <img src="../imagenes/logoAlura.svg" alt="logo de alura latam">
+    </header>
+
+    <main>
+        <section class="seccion1">
+            <form action="" class="form">
+                <textarea class="text" placeholder="Ingrese el texto aquí por favor" name="text" id="textArea"></textarea>
+                
+            <div class="botones">
+                <input class="btn encriptar" id="encriptar" type="button" value="Encriptar">
+                <input class="btn desencritar" id="desencriptar" type="button" value="Desencriptar">
+            </div>
+            </form>
+        </section>
+    
+        <section class="seccion2">
+
+            <div class="contenedor-aparece" id="aparece" >
+                <textarea name="result" class="text-resultado" id="resultado"></textarea>
+
+                <div class="contenedor-copiar">
+                    <input type="button" class="btn"  id="copiar" value="Copiar" >
+                    
+                </div>
+            </div>
+
+            <div class="contenedor-desaparece" id="desaparece">
+                <div class="contenedor-imagen">
+                    <img src="./imagenes/Muñeco.svg" alt="">
+                </div>
+                <div class="contenedor titulo" id="titulo">
+                    Ningun mensaje fue encontrado aún
+                </div>
+                <div class="contenedor parrafo">
+                    Ingrese el texto que desee encriptar o desencriptar
+                </div>
+            </div>
+            
+            
+        </section>
+    </main>
+    
+
+    <footer class="footer" id="pie">Copyright © By <p class="miname">leamgon@gmail.com</p></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
