@@ -129,6 +129,10 @@ section{
     font-family: 'Roboto', sans-serif;
 }
 
+.imagen{
+    width: 100%;
+}
+
 .contenedor{
     margin: 5px;
 }
