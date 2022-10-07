@@ -185,13 +185,6 @@ section{
 
     .seccion1{
         width: 100%;
-        /* height: 50vh; */
-        /* background: green; */
-    }
-
-    .text{
-        /* height: 80%; */
-        /* background: red; */
     }
     
     .botones{
@@ -214,23 +207,49 @@ section{
 }
 
 @media screen and (max-width: 412px) {
-    .botones{
-        flex-direction: column;
-        align-items: center;
+    .header{
+        margin: 10px auto;
     }
 
-    .btn{
-        width: 90%;
-        
+    main{
+        height: 75vh;
     }
 
     .seccion1{
         height: 45vh;
     }
 
+    .seccion2{
+        height: 20vh;
+    }
+
     .text{
         height: 70%;
+        /* background: yellow; */
     }
+
+    .botones{
+        flex-direction: column;
+        align-items: center;
+        height: 50%;
+        /* background: green; */
+    }
+
+    .btn{
+        width: 70%;
+        height: 50px;
+        
+    }
+
+    .text-resultado{
+        /* background: red; */
+        height: 60%;
+    }
+
+    .contenedor-copiar{
+        height: 40%;
+        /* background: green; */
+    }    
 }
 
 
